@@ -14,7 +14,7 @@ html {
 }
 
 img {
-  width: 100%
+  width: 100%;
 }
 
 img:first-child, img:nth-child(3) {
@@ -41,7 +41,7 @@ img:first-child, img:nth-child(3) {
 }
 
 @media only screen and (min-width: 38em) {
-img{
+img {
     width: 100%;
 }
 
@@ -50,17 +50,17 @@ img:nth-child(2), img:nth-child(3), img:nth-child(4) {
   display: inline-block;
 }
 
-img:first-child{
+img:first-child {
   display: none;
 }
 
 @media only screen and (min-width: 60em) {
 img{
-    width: 100%;
+  width: 100%;
 }
 
 img:first-child, img:nth-child(2), img:nth-child(3), img:nth-child(4) {
-  width:24%;
+  width: 24%;
   display: inline-block;
 }
 
